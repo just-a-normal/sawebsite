@@ -1,2 +1,6 @@
 you cant copy this without my permission
+<<<<<<< HEAD
 thats basically it
+=======
+thats basically it
+>>>>>>> origin/master
