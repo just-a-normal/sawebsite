@@ -1,3 +1,4 @@
+   
    <script language="JavaScript">
     var frmvalidator  = new Validator("contactform");
     frmvalidator.addValidation("name","req","Please provide your name");
