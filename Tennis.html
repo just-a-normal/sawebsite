@@ -16,7 +16,7 @@
       this.y = y;
       this.width = width;
       this.height = height;
-      this.speedModifier = 0;
+      this.speedModifier = 1;
       this.hasCollidedWith = function(ball) {
         var paddleLeftWall = this.x;
         var paddleRightWall = this.x + this.width;
@@ -39,7 +39,7 @@
           nextY += -5;
           this.speedModifier = 1.5;
         } else {
-          this.speedModifier = 0;
+          this.speedModifier = 1;
         }
         nextY = nextY < 0 ? 0 : nextY;
         nextY = nextY + this.height > 480 ? 480 - this.height : nextY;
@@ -58,7 +58,7 @@
       reset: function () {
         this.x = 320;
         this.y = 240;
-        this.xSpeed = 2;
+        this.xSpeed = 10;
         this.ySpeed = 0;
       },
       isBouncing: function() {
