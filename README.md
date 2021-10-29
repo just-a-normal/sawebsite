@@ -4,6 +4,4 @@ Check below for lastest website release. we update the website frequently. see u
 
 # Website Link
 
-Website: https://mmarkospro21.github.io/sawebsite/
-
-NEW WEBSITE LINK https://just-a-normal.github.io/sawebsite/
+https://just-a-normal.github.io/sawebsite/
